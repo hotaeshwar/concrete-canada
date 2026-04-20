@@ -6,6 +6,7 @@ import AboutUs from './components/Aboutus'
 import Whychooseus from './components/Whychooseus'
 import Services from './components/Services'
 import Additionalservices from './components/Additionalservices'
+import ProjectGallery from './components/Projectgallery'
 import ContactSection from './components/Contactsection'
 import Footer from './components/Footer'
 
@@ -249,6 +250,7 @@ function AppContent() {
         <Whychooseus />
         <div id="services"><Services /></div>
         <Additionalservices />
+        <div id="gallery"><ProjectGallery /></div>
         <div id="contact"><ContactSection /></div>
         <Footer />
       </div>
