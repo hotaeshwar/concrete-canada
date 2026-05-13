@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import { BrowserRouter } from 'react-router-dom'
+import SEO, { KEYWORDS } from './components/Seo'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import AboutUs from './components/Aboutus'
@@ -41,9 +42,9 @@ function SplashScreen({ onFinish }) {
     let w = cvs.offsetWidth, h = cvs.offsetHeight
     cvs.width = w; cvs.height = h
 
-    const pts = Array.from({ length: 42 }, () => ({
+    const pts = Array.from({ length: 60 }, () => ({
       x: Math.random() * w, y: Math.random() * h,
-      r: Math.random() * 2 + 0.5,
+      r: Math.random() * 2.5 + 0.5,
       vx: (Math.random() - 0.5) * 0.4,
       vy: -Math.random() * 0.7 - 0.2,
       a: Math.random() * 0.5 + 0.15,
@@ -97,136 +98,92 @@ function SplashScreen({ onFinish }) {
       background: '#0d0d0d',
       display: 'flex', flexDirection: 'column',
       alignItems: 'center', justifyContent: 'center',
-      overflow: 'hidden', fontFamily: 'Georgia, serif',
-      transition: 'opacity 0.8s ease, transform 0.8s ease',
+      overflow: 'hidden',
+      transition: 'opacity 0.9s ease, transform 0.9s ease',
       opacity: fadeOut ? 0 : 1,
       transform: fadeOut ? 'scale(1.04)' : 'scale(1)',
       pointerEvents: fadeOut ? 'none' : 'all',
     }}>
-      <style>{`
-        @keyframes gridDrift {
-          from { background-position: 0 0; }
-          to   { background-position: 48px 48px; }
-        }
-        @keyframes hexSpin  { to { transform: rotate(360deg); } }
-        @keyframes hexSpinR { to { transform: rotate(-360deg); } }
-        @keyframes fadeUp {
-          from { opacity: 0; transform: translateY(12px); }
-          to   { opacity: 1; transform: translateY(0); }
-        }
-        @keyframes scanMove {
-          0%   { top: 10%; }
-          50%  { top: 90%; }
-          100% { top: 10%; }
-        }
-        .spl-fadeup { animation: fadeUp 0.8s ease both; }
-      `}</style>
-
-      <div style={{
+      <canvas ref={canvasRef} style={{
         position: 'absolute', inset: 0,
-        backgroundImage: `
-          linear-gradient(rgba(255,160,0,0.04) 1px, transparent 1px),
-          linear-gradient(90deg, rgba(255,160,0,0.04) 1px, transparent 1px)`,
-        backgroundSize: '48px 48px',
-        animation: 'gridDrift 20s linear infinite',
+        width: '100%', height: '100%',
+        pointerEvents: 'none',
       }} />
 
-      <canvas ref={canvasRef} style={{ position: 'absolute', inset: 0 }} />
-
-      <div style={{
-        position: 'absolute', left: 0, right: 0, height: 1,
-        background: 'linear-gradient(90deg,transparent,rgba(255,160,0,0.15),transparent)',
-        animation: 'scanMove 3s ease-in-out infinite', zIndex: 5,
-      }} />
-
-      {[
-        { top: 20, left: 20,     borderWidth: '1px 0 0 1px' },
-        { top: 20, right: 20,    borderWidth: '1px 1px 0 0' },
-        { bottom: 20, left: 20,  borderWidth: '0 0 1px 1px' },
-        { bottom: 20, right: 20, borderWidth: '0 1px 1px 0' },
-      ].map((s, i) => (
-        <div key={i} style={{
-          position: 'absolute', width: 22, height: 22,
-          borderStyle: 'solid', borderColor: 'rgba(255,160,0,0.25)', ...s,
+      <div style={{ position: 'relative', zIndex: 1, marginBottom: 32 }}>
+        <div style={{
+          position: 'absolute', top: '50%', left: '50%',
+          width: 210, height: 210, marginTop: -105, marginLeft: -105,
+          borderRadius: '50%', border: '3px solid transparent',
+          borderTopColor: '#fa9f00', borderRightColor: '#fa9f0055',
+          animation: 'spin 1s linear infinite',
         }} />
-      ))}
-
-      <div className="spl-fadeup" style={{
-        position: 'relative', zIndex: 10,
-        display: 'flex', alignItems: 'center', justifyContent: 'center',
-        marginBottom: 28, animationDelay: '0.2s',
-      }}>
-        {[160, 130].map((size, i) => (
-          <div key={i} style={{
-            position: 'absolute', width: size, height: size,
-            border: `1px solid rgba(255,160,0,${i === 0 ? 0.09 : 0.18})`,
-            clipPath: 'polygon(50% 0%,100% 25%,100% 75%,50% 100%,0% 75%,0% 25%)',
-            animation: `${i === 0 ? 'hexSpinR' : 'hexSpin'} ${i === 0 ? 12 : 8}s linear infinite`,
-          }} />
-        ))}
-
-        <div style={{ position: 'relative', zIndex: 3, textAlign: 'center' }}>
-          <img
-            src="/media/logo.png"
-            alt="Wilches Ready Mix Concrete"
-            onError={e => { e.target.style.display = 'none' }}
-            style={{ width: 'clamp(180px,32vw,260px)', height: 'auto', display: 'block', margin: '0 auto' }}
-          />
-        </div>
+        <div style={{
+          position: 'absolute', top: '50%', left: '50%',
+          width: 180, height: 180, marginTop: -90, marginLeft: -90,
+          borderRadius: '50%', border: '2px solid transparent',
+          borderBottomColor: '#fa9f00', borderLeftColor: '#fa9f0033',
+          animation: 'spinReverse 1.5s linear infinite',
+        }} />
+        <img
+          src="/media/logo.png"
+          alt="Wilches Ready Mix Concrete"
+          style={{
+            width: 160, height: 160, objectFit: 'contain',
+            borderRadius: '50%', display: 'block',
+            position: 'relative', zIndex: 2,
+          }}
+        />
       </div>
 
-      <div className="spl-fadeup" style={{
-        width: 'clamp(120px,30vw,200px)', height: 1, marginBottom: 24,
-        background: 'linear-gradient(90deg,transparent,rgba(255,160,0,0.5),transparent)',
-        animationDelay: '0.5s',
-      }} />
-
-      <div className="spl-fadeup" style={{
-        display: 'flex', alignItems: 'baseline', gap: 4,
-        marginBottom: 16, animationDelay: '0.6s', position: 'relative', zIndex: 10,
+      <p style={{
+        color: '#fff', fontSize: 18, fontWeight: 700,
+        letterSpacing: '0.15em', textTransform: 'uppercase',
+        marginBottom: 6, position: 'relative', zIndex: 1,
       }}>
-        <span style={{
-          fontSize: 'clamp(52px,10vw,76px)', fontWeight: 700,
-          color: count === 100 ? '#ffa500' : '#fff',
-          lineHeight: 1, fontFamily: 'Georgia, serif',
-          letterSpacing: '-0.02em', transition: 'color 0.3s',
-        }}>
-          {count}
-        </span>
-        <span style={{ fontSize: 'clamp(20px,3vw,26px)', color: 'rgba(255,160,0,0.7)' }}>%</span>
-      </div>
+        Wilches Ready Mix
+      </p>
 
-      <div className="spl-fadeup" style={{
-        fontSize: 'clamp(8px,1.4vw,10px)', letterSpacing: '0.3em',
-        color: 'rgba(255,255,255,0.3)', textTransform: 'uppercase',
-        marginBottom: 22, minHeight: 14, animationDelay: '0.7s',
-        position: 'relative', zIndex: 10,
+      <p style={{
+        color: '#fa9f00', fontSize: 13, letterSpacing: '0.08em',
+        marginBottom: 32, position: 'relative', zIndex: 1, minHeight: 20,
       }}>
         {status}
-      </div>
+      </p>
 
-      <div className="spl-fadeup" style={{
-        width: 'clamp(200px,45vw,320px)', height: 2,
-        background: 'rgba(255,255,255,0.07)',
-        borderRadius: 99, overflow: 'hidden',
-        position: 'relative', zIndex: 10,
-        animationDelay: '0.8s',
+      <div style={{
+        width: 280, height: 4, background: '#2a2a2a',
+        borderRadius: 999, overflow: 'hidden',
+        position: 'relative', zIndex: 1, marginBottom: 12,
       }}>
         <div style={{
           height: '100%', width: `${count}%`,
-          background: 'linear-gradient(90deg,#e07b00,#ffa500,#ffd080)',
-          borderRadius: 99, transition: 'width 0.08s linear',
-          position: 'relative',
-        }}>
-          <div style={{
-            position: 'absolute', right: -3, top: '50%',
-            transform: 'translateY(-50%)',
-            width: 7, height: 7, borderRadius: '50%',
-            background: '#ffa500',
-            boxShadow: '0 0 8px #ffa500, 0 0 16px rgba(255,165,0,0.6)',
-          }} />
-        </div>
+          background: 'linear-gradient(90deg, #fa9f00, #ffcc55)',
+          borderRadius: 999, transition: 'width 0.1s ease',
+          boxShadow: '0 0 8px #fa9f00aa',
+        }} />
+        <div style={{
+          position: 'absolute', inset: 0,
+          background: 'linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.15) 50%, transparent 100%)',
+          animation: 'shimmer 1.2s infinite',
+        }} />
       </div>
+
+      <p style={{
+        color: '#888', fontSize: 12, letterSpacing: '0.1em',
+        position: 'relative', zIndex: 1,
+      }}>
+        {count}%
+      </p>
+
+      <style>{`
+        @keyframes spin { to { transform: rotate(360deg); } }
+        @keyframes spinReverse { to { transform: rotate(-360deg); } }
+        @keyframes shimmer {
+          0%   { transform: translateX(-100%); }
+          100% { transform: translateX(100%); }
+        }
+      `}</style>
     </div>
   )
 }
@@ -242,7 +199,22 @@ function AppContent() {
 
   return (
     <>
+      {/* ── SEO ── */}
+      <SEO
+        title="Wilches Ready Mix Concrete Inc | Ready Mix Concrete Toronto"
+        description="Wilches Ready Mix Concrete Inc provides high-quality ready mix concrete services in Toronto and the Greater Toronto Area (GTA). Reliable, affordable, and fast delivery for residential and commercial projects."
+        canonical="https://wilchesreadymix.com"
+        keywords={KEYWORDS.home}
+        serviceType="Ready Mix Concrete Supplier"
+        serviceDesc="Leading ready mix concrete supplier in Toronto and GTA with fast, reliable delivery for residential and commercial projects."
+        breadcrumbs={[
+          { name: 'Home', url: 'https://wilchesreadymix.com' },
+        ]}
+        image="https://wilchesreadymix.com/media/logo.png"
+      />
+
       {showSplash && <SplashScreen onFinish={handleSplashFinish} />}
+
       <div style={{ opacity: appVisible ? 1 : 0, transition: 'opacity 0.6s ease' }}>
         <Navbar />
         <div id="home"><Hero /></div>
