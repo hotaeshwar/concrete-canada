@@ -49,7 +49,7 @@ export default function WhitbyConcreteDelivery() {
       <SEO 
         title="Ready Mix Concrete Whitby | Concrete Delivery"
         description="Need ready mix concrete in Whitby? Wilches Ready Mix delivers residential, commercial & industrial concrete across Whitby and Durham Region. 20+ years GTA experience. Call 647-891-4740."
-        canonical="https://wilchesreadymix.com/ready-mix-concrete-delivery-whitby"
+        canonical="https://wilchesreadymix.com/ready-mix-concrete-delivery-whitby/"
         keywords="Concrete Whitby, Concrete near me Whitby, Ready mix concrete Whitby, Concrete Delivery Whitby"
       />
       <link

@@ -50,7 +50,7 @@ export default function PickeringConcreteDelivery() {
       <SEO 
         title="Ready Mix Concrete Pickering | Concrete Delivery"
         description="Need ready mix concrete in Pickering? Wilches Ready Mix delivers residential, commercial & industrial concrete across Pickering and Durham Region. 20+ years GTA experience. Call 647-891-4740."
-        canonical="https://wilchesreadymix.com/ready-mix-concrete-pickering"
+        canonical="https://wilchesreadymix.com/ready-mix-concrete-pickering/"
         keywords="Concrete delivery Pickering, Concrete supplier Pickering, Ready mix concrete Pickering Ontario, Residential concrete Pickering, Commercial concrete Pickering, Industrial concrete Pickering, Concrete near me Pickering, On-site concrete pouring Pickering"
       />
       <link
