@@ -49,7 +49,7 @@ export default function AjaxConcreteDelivery() {
       <SEO 
         title="Ready Mix Concrete Delivery in Ajax | Wilches Ready Mix Concrete Inc"
         description="Looking for ready mix concrete delivery in Ajax? Wilches Ready Mix serves Ajax contractors and homeowners with residential, commercial & industrial concrete. 20+ years GTA experience. Call 647-891-4740."
-        canonical="https://wilchesreadymix.com/ready-mix-concrete-delivery-ajax"
+        canonical="https://wilchesreadymix.com/ready-mix-concrete-delivery-ajax/"
         keywords="Concrete delivery Ajax, Concrete supplier Ajax, Concrete Ajax Ontario, Ready mix concrete Ajax Ontario, Residential concrete Ajax, Commercial concrete Ajax, Industrial concrete Ajax, Concrete near me Ajax, Concrete pouring Ajax"
       />
       <link

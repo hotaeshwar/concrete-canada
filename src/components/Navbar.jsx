@@ -9,7 +9,7 @@ const links = [
     label: "Service Area", 
     isDropdown: true,
     subLinks: [
-      { label: "Ajax Concrete Delivery", href: "ready-mix-concrete-delivery-ajax", path: "/ready-mix-concrete-delivery-ajax" },
+      { label: "Ajax Concrete Delivery", href: "ready-mix-concrete-delivery-ajax", path: "/ready-mix-concrete-delivery-ajax/" },
       { label: "Whitby Concrete Delivery", href: "ready-mix-concrete-delivery-whitby", path: "/ready-mix-concrete-delivery-whitby" },
       { label: "Pickering Concrete Delivery", href: "ready-mix-concrete-pickering", path: "/ready-mix-concrete-pickering" }
     ]

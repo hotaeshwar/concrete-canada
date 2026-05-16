@@ -238,7 +238,7 @@ function AppContent() {
           <Route path="/gallery" element={<HomeLayout />} />
           <Route path="/contact" element={<HomeLayout />} />
           
-          <Route path="/ready-mix-concrete-delivery-ajax" element={<AjaxConcreteDelivery />} />
+          <Route path="/ready-mix-concrete-delivery-ajax/" element={<AjaxConcreteDelivery />} />
           <Route path="/ready-mix-concrete-delivery-whitby" element={<WhitbyConcreteDelivery />} />
           <Route path="/ready-mix-concrete-pickering" element={<PickeringConcreteDelivery />} />
         </Routes>
