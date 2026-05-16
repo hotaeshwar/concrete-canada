@@ -1,6 +1,8 @@
 import { useState, useEffect, useRef } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import AjaxConcreteDelivery from './components/AjaxConcreteDelivery'
+import WhitbyConcreteDelivery from './components/WhitbyConcreteDelivery'
+import PickeringConcreteDelivery from './components/PickeringConcreteDelivery'
 import SEO, { KEYWORDS } from './components/Seo'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
@@ -237,6 +239,8 @@ function AppContent() {
           <Route path="/contact" element={<HomeLayout />} />
           
           <Route path="/ready-mix-concrete-delivery-ajax" element={<AjaxConcreteDelivery />} />
+          <Route path="/ready-mix-concrete-delivery-whitby" element={<WhitbyConcreteDelivery />} />
+          <Route path="/ready-mix-concrete-pickering" element={<PickeringConcreteDelivery />} />
         </Routes>
         <Footer />
       </div>

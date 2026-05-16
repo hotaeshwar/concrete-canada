@@ -5,7 +5,15 @@ const links = [
   { label: "Home", href: "home", path: "/" },
   { label: "About Us", href: "about", path: "/about" },
   { label: "Concrete Services", href: "services", path: "/services" },
-  { label: "Ajax Concrete", href: "ready-mix-concrete-delivery-ajax", path: "/ready-mix-concrete-delivery-ajax" },
+  { 
+    label: "Service Area", 
+    isDropdown: true,
+    subLinks: [
+      { label: "Ajax Concrete Delivery", href: "ready-mix-concrete-delivery-ajax", path: "/ready-mix-concrete-delivery-ajax" },
+      { label: "Whitby Concrete Delivery", href: "ready-mix-concrete-delivery-whitby", path: "/ready-mix-concrete-delivery-whitby" },
+      { label: "Pickering Concrete Delivery", href: "ready-mix-concrete-pickering", path: "/ready-mix-concrete-pickering" }
+    ]
+  },
   { label: "Project Gallery", href: "gallery", path: "/gallery" },
   { label: "Contact Us", href: "contact", path: "/contact" },
 ];
@@ -22,11 +30,58 @@ const scrollToSection = (id) => {
   }
 };
 
-function NavLinkItem({ link, activeLink, onSamePageClick, className = "nav-link" }) {
+function NavLinkItem({ link, activeLink, onSamePageClick, className = "nav-link", isMobile = false }) {
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+
   const handleClick = (e) => {
+    if (link.isDropdown) {
+      e.preventDefault();
+      setDropdownOpen(!dropdownOpen);
+      return;
+    }
     e.preventDefault();
     onSamePageClick(link.href);
   };
+
+  if (link.isDropdown) {
+    return (
+      <div 
+        className={isMobile ? "w-full" : "relative group"} 
+        onMouseEnter={() => !isMobile && setDropdownOpen(true)}
+        onMouseLeave={() => !isMobile && setDropdownOpen(false)}
+      >
+        <button
+          className={`${className}${link.subLinks.some(sub => activeLink === sub.href) ? " active" : ""} flex items-center justify-between w-full border-none bg-transparent`}
+          onClick={handleClick}
+        >
+          {link.label}
+          <svg className={`inline ml-1 w-4 h-4 transition-transform duration-200 ${dropdownOpen ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </button>
+        {dropdownOpen && (
+          <div className={isMobile ? "mt-1" : "absolute left-0 top-full pt-2 w-56 z-50"}>
+            <div className={isMobile ? "bg-[#1a1a1a] pl-4 py-2 rounded-md" : "bg-[#111] border border-[#f97316]/30 shadow-xl rounded-md overflow-hidden"}>
+              {link.subLinks.map(sub => (
+                <Link
+                  key={sub.label}
+                  to={sub.path}
+                  className={isMobile ? "block py-2 text-[0.95rem] text-white/80 hover:text-[#f97316] font-bold" : "block px-4 py-3 text-[0.9rem] text-white/90 font-bold hover:bg-[#222] hover:text-[#f97316] transition-colors"}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    setDropdownOpen(false);
+                    onSamePageClick(sub.href);
+                  }}
+                >
+                  {sub.label}
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
+    );
+  }
 
   return (
     <Link
@@ -72,11 +127,20 @@ export default function Navbar() {
   const handleSamePageClick = (id) => {
     setActiveLink(id);
     setMenuOpen(false);
-    const link = links.find((l) => l.href === id);
-    if (link && link.path !== window.location.pathname) {
-      navigate(link.path);
+    
+    let targetLink = null;
+    for (const l of links) {
+      if (l.href === id) targetLink = l;
+      if (l.isDropdown && l.subLinks) {
+        const sub = l.subLinks.find(s => s.href === id);
+        if (sub) targetLink = sub;
+      }
     }
-    scrollToSection(id);
+
+    if (targetLink && targetLink.path !== window.location.pathname) {
+      navigate(targetLink.path);
+    }
+    setTimeout(() => scrollToSection(id), 100);
   };
 
   return (
@@ -284,6 +348,7 @@ export default function Navbar() {
                   activeLink={activeLink}
                   onSamePageClick={handleSamePageClick}
                   className="mobile-link"
+                  isMobile={true}
                 />
               ))}
               <a
