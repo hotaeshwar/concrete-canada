@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
-import { BrowserRouter } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import AjaxConcreteDelivery from './components/AjaxConcreteDelivery'
 import SEO, { KEYWORDS } from './components/Seo'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
@@ -217,15 +218,42 @@ function AppContent() {
 
       <div style={{ opacity: appVisible ? 1 : 0, transition: 'opacity 0.6s ease' }}>
         <Navbar />
-        <div id="home"><Hero /></div>
-        <div id="about"><AboutUs /></div>
-        <Whychooseus />
-        <div id="services"><Services /></div>
-        <Additionalservices />
-        <div id="gallery"><ProjectGallery /></div>
-        <div id="contact"><ContactSection /></div>
+        <Routes>
+          <Route path="/" element={
+            <>
+              <div id="home"><Hero /></div>
+              <div id="about"><AboutUs /></div>
+              <Whychooseus />
+              <div id="services"><Services /></div>
+              <Additionalservices />
+              <div id="gallery"><ProjectGallery /></div>
+              <div id="contact"><ContactSection /></div>
+            </>
+          } />
+          {/* Support existing hash links that update path to /about, /services, etc. */}
+          <Route path="/about" element={<HomeLayout />} />
+          <Route path="/services" element={<HomeLayout />} />
+          <Route path="/gallery" element={<HomeLayout />} />
+          <Route path="/contact" element={<HomeLayout />} />
+          
+          <Route path="/ready-mix-concrete-delivery-ajax" element={<AjaxConcreteDelivery />} />
+        </Routes>
         <Footer />
       </div>
+    </>
+  )
+}
+
+function HomeLayout() {
+  return (
+    <>
+      <div id="home"><Hero /></div>
+      <div id="about"><AboutUs /></div>
+      <Whychooseus />
+      <div id="services"><Services /></div>
+      <Additionalservices />
+      <div id="gallery"><ProjectGallery /></div>
+      <div id="contact"><ContactSection /></div>
     </>
   )
 }

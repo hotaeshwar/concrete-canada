@@ -5,12 +5,13 @@ const links = [
   { label: "Home", href: "home", path: "/" },
   { label: "About Us", href: "about", path: "/about" },
   { label: "Concrete Services", href: "services", path: "/services" },
+  { label: "Ajax Concrete", href: "ready-mix-concrete-delivery-ajax", path: "/ready-mix-concrete-delivery-ajax" },
   { label: "Project Gallery", href: "gallery", path: "/gallery" },
   { label: "Contact Us", href: "contact", path: "/contact" },
 ];
 
-const leftLinks = links.slice(0, 2);
-const rightLinks = links.slice(2);
+const leftLinks = links.slice(0, 3);
+const rightLinks = links.slice(3);
 
 const scrollToSection = (id) => {
   const el = document.getElementById(id);
