@@ -11,7 +11,8 @@ const links = [
     subLinks: [
       { label: "Ajax Concrete Delivery", href: "ready-mix-concrete-delivery-ajax", path: "/ready-mix-concrete-delivery-ajax/" },
       { label: "Whitby Concrete Delivery", href: "ready-mix-concrete-delivery-whitby", path: "/ready-mix-concrete-delivery-whitby/" },
-      { label: "Pickering Concrete Delivery", href: "ready-mix-concrete-pickering", path: "/ready-mix-concrete-pickering/" }
+      { label: "Pickering Concrete Delivery", href: "ready-mix-concrete-pickering", path: "/ready-mix-concrete-pickering/" },
+      { label: "Scarborough Concrete Delivery", href: "ready-mix-concrete-scarborough", path: "/ready-mix-concrete-scarborough/" }
     ]
   },
   { label: "Project Gallery", href: "gallery", path: "/gallery" },

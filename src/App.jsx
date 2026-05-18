@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import AjaxConcreteDelivery from './components/AjaxConcreteDelivery'
 import WhitbyConcreteDelivery from './components/WhitbyConcreteDelivery'
 import PickeringConcreteDelivery from './components/PickeringConcreteDelivery'
+import ScarboroughConcreteDelivery from './components/ScarboroughConcreteDelivery'
 import SEO, { KEYWORDS } from './components/Seo'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
@@ -241,6 +242,7 @@ function AppContent() {
           <Route path="/ready-mix-concrete-delivery-ajax/" element={<AjaxConcreteDelivery />} />
           <Route path="/ready-mix-concrete-delivery-whitby/" element={<WhitbyConcreteDelivery />} />
           <Route path="/ready-mix-concrete-pickering/" element={<PickeringConcreteDelivery />} />
+          <Route path="/ready-mix-concrete-scarborough/" element={<ScarboroughConcreteDelivery />} />
         </Routes>
         <Footer />
       </div>

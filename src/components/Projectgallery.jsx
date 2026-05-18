@@ -362,7 +362,7 @@ export default function ProjectGallery() {
               className="inline-block border border-orange-900/30 rounded px-4 py-2 text-white/60 text-sm tracking-wide"
               style={{ fontFamily: "'Barlow Condensed', sans-serif" }}
             >
-              We are adding our gallery shortly — keep visiting
+              Live on-site project footage
             </span>
           </p>
         </div>
@@ -391,12 +391,12 @@ export default function ProjectGallery() {
                 fontSize: "clamp(1.8rem, 4vw, 2.8rem)",
               }}
             >
-              Our <span style={{ color: "#fe5f00" }}>Projects</span> Are On Their Way
+              Explore Our Recent <span style={{ color: "#fe5f00" }}>Projects</span>
             </h2>
             <p className="text-white/60 leading-relaxed text-sm md:text-base">
-              We're curating a showcase of our finest concrete, masonry, and remodeling
+              Take a look at some of our finest concrete, masonry, and remodeling
               work — from residential driveways to large-scale commercial paving.
-              Check back soon to see the craftsmanship firsthand.
+              Watch our team deliver quality craftsmanship in real-time.
             </p>
           </SlideIn>
 
@@ -448,8 +448,7 @@ export default function ProjectGallery() {
                   fontSize: "clamp(1.5rem, 3.5vw, 2.4rem)",
                 }}
               >
-                Photos Loading{" "}
-                <span style={{ color: "#fe5f00" }}>Soon</span>
+                Recent <span style={{ color: "#fe5f00" }}>Projects</span>
               </h3>
             </div>
             <span
@@ -460,17 +459,55 @@ export default function ProjectGallery() {
                 className="w-1.5 h-1.5 rounded-full animate-pulse"
                 style={{ background: "#fe5f00" }}
               />
-              We are adding our gallery shortly — keep visiting
+              Live site footage
             </span>
           </FadeUp>
 
-          {/* Responsive grid: 1 col → 2 col → 3 col */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-px bg-orange-900/10">
-            {Array.from({ length: placeholderCount }).map((_, i) => (
-              <div key={i} className="bg-black">
-                <PlaceholderCard index={i} delay={Math.min(i * 80, 400)} />
+          {/* Responsive grid: 1 col → 2 col */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-10 bg-black pt-4">
+            <ScaleIn delay={0}>
+              <div className="relative overflow-hidden border border-orange-900/30 bg-neutral-950 aspect-[4/3] rounded-xl shadow-[0_0_15px_rgba(254,95,0,0.1)] group">
+                 <video 
+                   src="/media/gallery.mov" 
+                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" 
+                   autoPlay muted loop playsInline 
+                 />
+                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-80" />
+                 <div className="absolute bottom-0 inset-x-0 p-6 md:p-8 flex flex-col justify-end pointer-events-none">
+                    <p className="text-white/80 text-xs font-bold tracking-widest uppercase mb-2" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>
+                      Featured Project
+                    </p>
+                    <p className="text-white font-black uppercase text-2xl md:text-3xl leading-tight drop-shadow-md" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>
+                      Concrete <span style={{ color: "#fe5f00" }}>Pouring</span>
+                    </p>
+                 </div>
+                 {/* Corner accents */}
+                 <div className="absolute top-0 left-0 w-8 h-8 border-t-2 border-l-2 opacity-50 m-4 rounded-tl" style={{ borderColor: "#fe5f00" }} />
+                 <div className="absolute bottom-0 right-0 w-8 h-8 border-b-2 border-r-2 opacity-50 m-4 rounded-br" style={{ borderColor: "#fe5f00" }} />
               </div>
-            ))}
+            </ScaleIn>
+
+            <ScaleIn delay={200}>
+              <div className="relative overflow-hidden border border-orange-900/30 bg-neutral-950 aspect-[4/3] rounded-xl shadow-[0_0_15px_rgba(254,95,0,0.1)] group">
+                 <video 
+                   src="/media/gallery1.mov" 
+                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" 
+                   autoPlay muted loop playsInline 
+                 />
+                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-80" />
+                 <div className="absolute bottom-0 inset-x-0 p-6 md:p-8 flex flex-col justify-end pointer-events-none">
+                    <p className="text-white/80 text-xs font-bold tracking-widest uppercase mb-2" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>
+                      Featured Project
+                    </p>
+                    <p className="text-white font-black uppercase text-2xl md:text-3xl leading-tight drop-shadow-md" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>
+                      Site <span style={{ color: "#fe5f00" }}>Preparation</span>
+                    </p>
+                 </div>
+                 {/* Corner accents */}
+                 <div className="absolute top-0 left-0 w-8 h-8 border-t-2 border-l-2 opacity-50 m-4 rounded-tl" style={{ borderColor: "#fe5f00" }} />
+                 <div className="absolute bottom-0 right-0 w-8 h-8 border-b-2 border-r-2 opacity-50 m-4 rounded-br" style={{ borderColor: "#fe5f00" }} />
+              </div>
+            </ScaleIn>
           </div>
         </div>
 
@@ -501,7 +538,7 @@ export default function ProjectGallery() {
               <span style={{ color: "#fe5f00" }}>project?</span>
             </h3>
             <p className="text-white/50 text-sm md:text-base max-w-md mx-auto mb-8 leading-relaxed">
-              While our gallery is being prepared, we're ready to take on your next
+              We're ready to take on your next
               concrete or remodeling project. Contact us for a free estimate.
             </p>
             {/* ── Glow CTA → scrolls to <div id="contact"><ContactSection /></div> ── */}
