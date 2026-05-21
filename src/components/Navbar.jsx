@@ -12,7 +12,14 @@ const links = [
       { label: "Ajax Concrete Delivery", href: "ready-mix-concrete-delivery-ajax", path: "/ready-mix-concrete-delivery-ajax/" },
       { label: "Whitby Concrete Delivery", href: "ready-mix-concrete-delivery-whitby", path: "/ready-mix-concrete-delivery-whitby/" },
       { label: "Pickering Concrete Delivery", href: "ready-mix-concrete-pickering", path: "/ready-mix-concrete-pickering/" },
-      { label: "Scarborough Concrete Delivery", href: "ready-mix-concrete-scarborough", path: "/ready-mix-concrete-scarborough/" }
+      { label: "Scarborough Concrete Delivery", href: "ready-mix-concrete-scarborough", path: "/ready-mix-concrete-scarborough/" },
+      { label: "Barrie Concrete Delivery", href: "ready-mix-concrete-delivery-barrie", path: "/ready-mix-concrete-delivery-barrie/" },
+      { label: "Oshawa Concrete Delivery", href: "ready-mix-concrete-delivery-oshawa", path: "/ready-mix-concrete-delivery-oshawa/" },
+      { label: "Oakville Concrete Delivery", href: "ready-mix-concrete-delivery-oakville", path: "/ready-mix-concrete-delivery-oakville/" },
+      { label: "King City Concrete Delivery", href: "ready-mix-concrete-delivery-king-city", path: "/ready-mix-concrete-delivery-king-city/" },
+      { label: "Newmarket Concrete Delivery", href: "ready-mix-concrete-in-newmarket", path: "/ready-mix-concrete-in-newmarket/" },
+      { label: "Vaughan Concrete Delivery", href: "ready-mix-concrete-vaughan", path: "/ready-mix-concrete-vaughan/" },
+      { label: "Stoney Creek Concrete Delivery", href: "ready-mix-concrete-in-stoney-creek", path: "/ready-mix-concrete-in-stoney-creek/" }
     ]
   },
   { label: "Project Gallery", href: "gallery", path: "/gallery" },

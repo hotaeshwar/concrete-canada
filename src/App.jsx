@@ -4,6 +4,13 @@ import AjaxConcreteDelivery from './components/AjaxConcreteDelivery'
 import WhitbyConcreteDelivery from './components/WhitbyConcreteDelivery'
 import PickeringConcreteDelivery from './components/PickeringConcreteDelivery'
 import ScarboroughConcreteDelivery from './components/ScarboroughConcreteDelivery'
+import BarrieConcreteDelivery from './components/BarrieConcreteDelivery'
+import OshawaConcreteDelivery from './components/OshawaConcreteDelivery'
+import OakvilleConcreteDelivery from './components/OakvilleConcreteDelivery'
+import KingCityConcreteDelivery from './components/KingCityConcreteDelivery'
+import NewmarketConcreteDelivery from './components/NewmarketConcreteDelivery'
+import VaughanConcreteDelivery from './components/VaughanConcreteDelivery'
+import StoneyCreekConcreteDelivery from './components/StoneyCreekConcreteDelivery'
 import SEO, { KEYWORDS } from './components/Seo'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
@@ -192,9 +199,13 @@ function SplashScreen({ onFinish }) {
   )
 }
 
+const isBot = typeof navigator !== 'undefined' && (
+  /bot|google|baidu|bing|msn|duckduckbot|teoma|slurp|yandex|crawler|spider|lighthouse|chrome-lighthouse/i.test(navigator.userAgent)
+);
+
 function AppContent() {
-  const [showSplash, setShowSplash] = useState(true)
-  const [appVisible, setAppVisible] = useState(false)
+  const [showSplash, setShowSplash] = useState(!isBot)
+  const [appVisible, setAppVisible] = useState(isBot)
 
   const handleSplashFinish = () => {
     setShowSplash(false)
@@ -243,6 +254,13 @@ function AppContent() {
           <Route path="/ready-mix-concrete-delivery-whitby/" element={<WhitbyConcreteDelivery />} />
           <Route path="/ready-mix-concrete-pickering/" element={<PickeringConcreteDelivery />} />
           <Route path="/ready-mix-concrete-scarborough/" element={<ScarboroughConcreteDelivery />} />
+          <Route path="/ready-mix-concrete-delivery-barrie/" element={<BarrieConcreteDelivery />} />
+          <Route path="/ready-mix-concrete-delivery-oshawa/" element={<OshawaConcreteDelivery />} />
+          <Route path="/ready-mix-concrete-delivery-oakville/" element={<OakvilleConcreteDelivery />} />
+          <Route path="/ready-mix-concrete-delivery-king-city/" element={<KingCityConcreteDelivery />} />
+          <Route path="/ready-mix-concrete-in-newmarket/" element={<NewmarketConcreteDelivery />} />
+          <Route path="/ready-mix-concrete-vaughan/" element={<VaughanConcreteDelivery />} />
+          <Route path="/ready-mix-concrete-in-stoney-creek/" element={<StoneyCreekConcreteDelivery />} />
         </Routes>
         <Footer />
       </div>
