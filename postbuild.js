@@ -850,6 +850,491 @@ const seoData = {
         </section>
       </div>
     `
+  },
+  'ready-mix-concrete-in-brampton': {
+    title: 'Best Ready Mix Concrete in Brampton in 2026',
+    description: 'Need ready mix concrete in Brampton? Wilches Ready Mix delivers plant-batched, quality-checked concrete across Brampton. Family-owned, 20+ years GTA. Free quote: 647-891-4740.',
+    url: 'https://wilchesreadymix.com/ready-mix-concrete-in-brampton/',
+    htmlContent: `
+      <div class="bg-black text-white w-full min-h-screen">
+        <section class="py-20 text-center">
+          <h1 class="text-4xl font-bold mb-6">Ready Mix Concrete in Brampton</h1>
+          <p>Most concrete problems on Brampton job sites do not start on the day of the pour. They start when the wrong supplier is booked — one who confirms the job and then shows up an hour late, or worse, delivers a mix that was not batched correctly for Ontario's freeze-thaw conditions.</p>
+          <p>At <strong>Wilches Ready Mix Concrete Inc.</strong>, we have been supplying ready mix concrete in Brampton since 2004. Family-owned, Etobicoke-based, 1,500+ completed projects across the GTA. Every load is plant-batched under controlled conditions, quality-checked before dispatch, and delivered to your Brampton site ready to pour — on the time we agree on, not whenever the route works for us.</p>
+        </section>
+        
+        <section class="py-16 max-w-4xl mx-auto px-6">
+          <h2 class="text-2xl font-bold mb-4">The Concrete Problem Most Brampton Contractors Face</h2>
+          <p>Brampton's construction pace is relentless. Credit Valley subdivisions, Goreway Drive industrial builds, Highway 410 commercial corridors — multiple projects running simultaneously, tight pour windows, finishing crews billing by the hour.</p>
+          <p>The problem contractors tell us about most is not pricing. It is reliability. A supplier who confirms a 7am delivery and shows up at 9am has just cost the site manager two hours of crew time and potentially pushed an inspection. A batch that was mixed too wet or skipped air entrainment looks fine in August and starts scaling by March.</p>
+          <p>We built our business around solving exactly those two problems. Twenty years later, it is still what keeps Brampton contractors calling us back.</p>
+        </section>
+        
+        <section class="py-16 max-w-4xl mx-auto px-6">
+          <h2 class="text-2xl font-bold mb-4">How Your Concrete Goes From Order to Pour</h2>
+          <p>Most suppliers do not explain this. We do — because it is where the quality difference actually happens.</p>
+          <ul class="list-disc pl-6 space-y-4">
+            <li><strong>Step 1 — You Call Us:</strong> We confirm your mix requirement, volume, delivery address, and pour window on the same call. No callbacks, no quote forms that sit unanswered.</li>
+            <li><strong>Step 2 — Mix Design Confirmed:</strong> Based on your application — driveway, foundation, industrial slab, or specialty pour — we confirm the right mix design. For exterior Brampton applications, that means 32 MPa air-entrained as standard. We tell you if your job needs something different.</li>
+            <li><strong>Step 3 — Plant Batching and QC:</strong> Your concrete is batched at our Etobicoke plant under controlled conditions. Certified aggregates, precise water-to-cement ratio, admixtures matched to the season and application. Every batch is quality-checked before loading.</li>
+            <li><strong>Step 4 — Dispatch and Delivery:</strong> The truck leaves on a schedule that accounts for GTA traffic and travel time to your Brampton site. The concrete arrives within its workability window — not at the edge of it.</li>
+            <li><strong>Step 5 — Ready to Pour:</strong> When our driver pulls up to your Brampton site, he confirms delivery details with whoever is running the job. The concrete is right, the timing is right, and your crew can work.</li>
+          </ul>
+        </section>
+        
+        <section class="py-16 max-w-4xl mx-auto px-6">
+          <h2 class="text-2xl font-bold mb-4">Brampton Projects We Handle</h2>
+          <div class="space-y-6">
+            <div>
+              <h3 class="text-xl font-bold">New Build Driveway and Garage Floor Pours</h3>
+              <p>New subdivision builds in Springdale, Castlemore, and Northwest Brampton generate a steady volume of residential driveway and garage floor pours. These are volume jobs with tight scheduling — multiple lots, sequential pours, contractors who need reliability above everything else. We supply 32 MPa air-entrained for all exterior residential applications in Brampton. Brampton's clay-heavy soil and Ontario's freeze-thaw cycle make proper air entrainment non-negotiable — surface scaling on a two-year-old driveway is a call back to the concrete supplier, and it should not happen.</p>
+            </div>
+            <div>
+              <h3 class="text-xl font-bold">Foundation and Basement Slab Pours</h3>
+              <p>Foundation pours for new residential and commercial builds require concrete that meets engineer specifications and arrives on a schedule coordinated with forming crews and inspection windows. We supply to the exact PSI specified, coordinate with your site supervisor, and deliver when the pour window opens — not before, not after.</p>
+            </div>
+            <div>
+              <h3 class="text-xl font-bold">Commercial Floor and Structural Pours</h3>
+              <p>Retail developments along Steeles Avenue, office buildings near Bramalea City Centre, and institutional construction across Brampton require commercial-grade concrete with documented batch consistency. We supply to engineer specification, provide batch documentation on request, and schedule deliveries around your site's pour sequence.</p>
+            </div>
+            <div>
+              <h3 class="text-xl font-bold">Industrial Slab and Equipment Pad Pours</h3>
+              <p>Brampton's warehouse and industrial corridor — Highway 407 distribution centres, Airport Road manufacturing facilities, Goreway Drive logistics operations — demands high-strength concrete with consistent PSI across multiple pours. Equipment pads, warehouse floors, loading dock aprons, and mezzanine supports all require mixes engineered for continuous load stress. We supply industrial-grade ready mix with full quality documentation on every pour.</p>
+            </div>
+            <div>
+              <h3 class="text-xl font-bold">Decorative and Exposed Aggregate Work</h3>
+              <p>Upscale residential projects in Brampton — exposed aggregate driveways, stamped patios, pool surrounds — require concrete that performs structurally and finishes cleanly. Our SCC mixes are specifically suited to decorative applications where surface quality matters as much as strength.</p>
+            </div>
+          </div>
+        </section>
+        
+        <section class="py-16 max-w-4xl mx-auto px-6">
+          <h2 class="text-2xl font-bold mb-4">Getting the Mix Right for Brampton's Climate</h2>
+          <p>Brampton sits in Ontario's full freeze-thaw zone. The city typically sees its last frost around mid-April and its first hard frost in mid-October — that is roughly a six-month exterior concrete season, with shoulder periods on both ends where the right mix choice becomes critical.</p>
+          <p>For Brampton contractors — the Cold-Crete window is earlier than most people expect. Once daytime temperatures are consistently below 10°C, standard mixes start losing reliable strength development. If your pour date is in late October or November, call us before booking a standard mix.</p>
+        </section>
+        
+        <section class="py-16 max-w-4xl mx-auto px-6">
+          <h2 class="text-2xl font-bold mb-4">Brampton Neighbourhoods We Deliver To</h2>
+          <p>Our trucks cover all of Brampton daily — north to south, east to west, including: Downtown Brampton, Bramalea, Springdale, Credit Valley, Heart Lake, Castlemore, Gore, Fletcher's Creek, Madoc, and the Goreway Corridor.</p>
+        </section>
+        
+        <section class="py-16 max-w-4xl mx-auto px-6">
+          <h2 class="text-2xl font-bold mb-4">What Our Customers Say About Wilches Ready Mix</h2>
+          <div class="space-y-4">
+            <p><strong>radiomen123:</strong> "This is the second time in a few years that I use their service. Each time they were on time and the drivers were very responsible and zero issue. I will highly recommend their services." (5-star Google Review)</p>
+            <p><strong>Tristan Braga:</strong> "Perfect concrete on time and exactly what I ordered. No cracks and perfect customer service." (5-star Google Review)</p>
+            <p><strong>T.C.:</strong> "They've consistently done an amazing job. It's clear they take pride in their work, and it shows in the quality and reliability of their offerings." (5-star Google Review)</p>
+          </div>
+        </section>
+        
+        <section class="py-16 max-w-4xl mx-auto px-6">
+          <h2 class="text-2xl font-bold mb-4">A Real Example of How We Work</h2>
+          <p>A contractor running a foundation pour in a Brampton subdivision called us at 6:30am on a Monday. His scheduled supplier had cancelled the night before. He needed two trucks by 9am or his forming crew would be standing idle. We confirmed the order, batched to his engineer's specification, and had both trucks on site by 8:45am. The pour ran on schedule. His crew did not lose a day.</p>
+        </section>
+        
+        <section class="py-16 max-w-4xl mx-auto px-6">
+          <h2 class="text-2xl font-bold mb-4">Questions Brampton Customers Actually Ask Us</h2>
+          <div class="space-y-6">
+            <div>
+              <h3 class="font-bold">How much notice do I need to book ready mix concrete in Brampton?</h3>
+              <p>For residential orders, 24 hours is usually enough. If your pour needs multiple trucks or has a fixed window around other trades, call 48 hours out. The earlier you call, the more flexibility we have on timing.</p>
+            </div>
+            <div>
+              <h3 class="font-bold">What concrete strength do I need for a driveway in Brampton?</h3>
+              <p>32 MPa air-entrained. This is the Ontario standard for residential driveways in freeze-thaw climates. Some suppliers quote 25 MPa to win on price — it saves nothing if the surface is scaling by year three.</p>
+            </div>
+            <div>
+              <h3 class="font-bold">Can you deliver concrete to a tight lot in a Brampton subdivision?</h3>
+              <p>Yes. We deal with subdivision access restrictions regularly across the GTA. Tell us the site conditions when you book and we will confirm the right truck size and approach.</p>
+            </div>
+            <div>
+              <h3 class="font-bold">Do you deliver concrete in Brampton during winter?</h3>
+              <p>Yes. Cold-Crete is available year-round. We will advise on mix, minimum placement temperature, and curing protection based on your specific pour date and forecast.</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    `
+  },
+  'ready-mix-concrete-in-mississauga': {
+    title: 'Ready Mix Concrete Delivery and Commercial Concrete in Mississauga',
+    description: 'Need ready mix concrete in Mississauga? Wilches Ready Mix delivers plant-batched, quality-checked concrete across Mississauga. Family-owned, 20+ years GTA. Free quote: 647-891-4740.',
+    url: 'https://wilchesreadymix.com/ready-mix-concrete-in-mississauga/',
+    htmlContent: `
+      <div class="bg-black text-white w-full min-h-screen">
+        <section class="py-20 text-center">
+          <h1 class="text-4xl font-bold mb-6">Ready Mix Concrete in Mississauga</h1>
+          <p>Mississauga is the GTA's second-largest city, and its construction market reflects that. Port Credit renovations, Streetsville residential builds, Erin Mills commercial developments, and the dense industrial corridor along Highway 401 and Dixie Road — concrete demand here runs at a pace that exposes weak suppliers fast.</p>
+          <p>At <strong>Wilches Ready Mix Concrete Inc.</strong>, we have been delivering ready mix concrete in Mississauga since 2004. Family-owned, Etobicoke-based — which puts us minutes from Mississauga's eastern boundary. Every load is plant-batched under controlled conditions, quality-checked before the truck leaves, and delivered to your site on the schedule we commit to.</p>
+        </section>
+        
+        <section class="py-16 max-w-4xl mx-auto px-6">
+          <h2 class="text-2xl font-bold mb-4">Why Mississauga Projects Demand a Reliable Concrete Supplier</h2>
+          <p>Mississauga's construction scene is competitive. Contractors are running tight timelines, residential homeowners are investing significant money in permanent work, and industrial clients cannot afford inconsistency across multiple pours.</p>
+          <p>The problem contractors tell us about most is not pricing. It is reliability. A supplier who confirms a 7am delivery and shows up at 9am has just cost the site manager two hours of crew time and potentially pushed an inspection. A batch that was mixed too wet or skipped air entrainment looks fine in August and starts scaling by March.</p>
+          <p>We do not cut corners at the plant. Every batch is checked before it loads. That is the whole system.</p>
+        </section>
+        
+        <section class="py-16 max-w-4xl mx-auto px-6">
+          <h2 class="text-2xl font-bold mb-4">How Your Concrete Gets From Our Plant to Your Mississauga Site</h2>
+          <p>Most suppliers skip this explanation. We do not — because this is where quality actually happens.</p>
+          <ul class="list-disc pl-6 space-y-4">
+            <li><strong>Step 1 — You Call Us:</strong> We confirm mix requirement, volume, delivery address, and pour window on the same call. Stephen O'Keeffe, one of our customers, ordered concrete on a Saturday evening and we answered. That is not an accident — it is how we operate.</li>
+            <li><strong>Step 2 — Mix Design Confirmed:</strong> Based on your application, we confirm the right mix. For exterior Mississauga work — driveways, patios, walkways — 32 MPa air-entrained is standard. We tell you if your project needs something different.</li>
+            <li><strong>Step 3 — Plant Batching and QC:</strong> Batched at our Etobicoke plant. Certified aggregates, controlled water-to-cement ratio, admixtures matched to season and application. Quality-checked before loading.</li>
+            <li><strong>Step 4 — Dispatch to Mississauga:</strong> We account for GTA traffic and travel time in our dispatch schedule. The concrete arrives within its workability window — not at the edge of it.</li>
+            <li><strong>Step 5 — On Site, Ready to Pour:</strong> When our driver pulls up to your Mississauga site, he confirms with whoever is running the job. The mix is right, the timing is right, and your crew can work.</li>
+          </ul>
+        </section>
+        
+        <section class="py-16 max-w-4xl mx-auto px-6">
+          <h2 class="text-2xl font-bold mb-4">Mississauga Projects We Handle</h2>
+          <div class="space-y-6">
+            <div>
+              <h3 class="text-xl font-bold">Driveway and Residential Slab Pours</h3>
+              <p>Mississauga homeowners come to us for driveways, garage floors, front and rear walkways, exposed aggregate patios, and basement slabs. In established neighbourhoods like Lakeview, Mineola, and Cooksville, where properties are older and driveways are being replaced, getting the mix right the first time matters. 32 MPa air-entrained is our standard for all exterior residential applications in Mississauga. Mississauga's Lake Ontario proximity means higher moisture exposure and more aggressive freeze-thaw cycling than inland GTA locations — a mix that skips air entrainment will show it within two winters.</p>
+            </div>
+            <div>
+              <h3 class="text-xl font-bold">New Build Foundation Pours</h3>
+              <p>Residential subdivisions in Erin Mills, Churchill Meadows, and East Credit require foundation and basement slab pours that meet engineer specifications and fit around forming crews and inspection windows. We supply to the exact PSI specified, coordinate delivery with your site supervisor, and arrive when the pour window opens.</p>
+            </div>
+            <div>
+              <h3 class="text-xl font-bold">Commercial and Institutional Concrete</h3>
+              <p>Retail developments along Hurontario Street, office buildings near Square One, mixed-use projects, and institutional construction across Mississauga require commercial-grade concrete with documented batch consistency. We supply to engineer specification with full batch documentation available on request.</p>
+            </div>
+            <div>
+              <h3 class="text-xl font-bold">Industrial Concrete Mississauga</h3>
+              <p>The industrial corridor along Highway 401, Dixie Road, and Matheson Boulevard demands high-strength concrete with consistent PSI across multiple pours. Equipment pads, warehouse floors, loading dock aprons, mezzanine supports — we supply industrial-grade ready mix with full quality documentation on every pour.</p>
+            </div>
+            <div>
+              <h3 class="text-xl font-bold">Decorative and Specialty Pours</h3>
+              <p>Port Credit, Streetsville, and Lakeview have a significant luxury residential and commercial renovation market. Exposed aggregate finishes, stamped concrete, pool surrounds, and decorative patios require mixes that perform structurally and finish cleanly. Our SCC mixes are specifically suited to these applications.</p>
+            </div>
+          </div>
+        </section>
+        
+        <section class="py-16 max-w-4xl mx-auto px-6">
+          <h2 class="text-2xl font-bold mb-4">Getting the Mix Right for Mississauga's Climate</h2>
+          <p>Mississauga sits directly on Lake Ontario, and that geography matters for concrete. Higher humidity, more dramatic temperature swings in shoulder seasons, and consistent freeze-thaw cycling make mix design more critical here than in inland GTA locations.</p>
+          <p>Mississauga's last frost typically falls around mid-April and the first hard frost arrives in mid-October. Any pour outside that window needs Cold-Crete consideration — call us with your pour date and we will tell you straight what the job requires.</p>
+        </section>
+        
+        <section class="py-16 max-w-4xl mx-auto px-6">
+          <h2 class="text-2xl font-bold mb-4">Mississauga Neighbourhoods We Deliver To</h2>
+          <p>Our trucks cover all of Mississauga daily — from the lakeshore communities in the south to the newer developments in the north, including: Port Credit, Lakeview, Cooksville, Streetsville, Erin Mills, Churchill Meadows, Meadowvale, Hurontario, Malton, and East Credit.</p>
+        </section>
+        
+        <section class="py-16 max-w-4xl mx-auto px-6">
+          <h2 class="text-2xl font-bold mb-4">What Our Customers Say</h2>
+          <div class="space-y-4">
+            <p><strong>Gursharan Marwaha:</strong> "Very good, very friendly, very affordable compared to others, quick response, same day delivery!" (5-star Google Review)</p>
+            <p><strong>Stephen O'Keeffe:</strong> "I ordered concrete on a Saturday evening. They answered the phone when no one else did. Brought me the concrete on time, fair pricing and the driver was very patient." (5-star Google Review)</p>
+            <p><strong>T.C.:</strong> "They've consistently done an amazing job. It's clear they take pride in their work, and it shows in the quality and reliability of their offerings." (5-star Google Review)</p>
+          </div>
+        </section>
+        
+        <section class="py-16 max-w-4xl mx-auto px-6">
+          <h2 class="text-2xl font-bold mb-4">A Real Example From a Mississauga Job Site</h2>
+          <p>A homeowner in Cooksville had scheduled a driveway pour with another supplier who cancelled the morning of the job. Contractor on site, forms already set, no concrete. She called us at 8am. We confirmed the mix, volume, and address on the call. Truck was on site by 11am. The pour ran the same day. The driveway is still there — no cracks, no scaling, two winters later.</p>
+        </section>
+        
+        <section class="py-16 max-w-4xl mx-auto px-6">
+          <h2 class="text-2xl font-bold mb-4">Questions Mississauga Customers Ask Us</h2>
+          <div class="space-y-6">
+            <div>
+              <h3 class="font-bold">How much notice do I need to book ready mix concrete in Mississauga?</h3>
+              <p>For residential orders, 24 hours is usually enough. Larger commercial or multi-truck pours benefit from 48 hours notice. Call as early as possible to lock in your window.</p>
+            </div>
+            <div>
+              <h3 class="font-bold">What concrete strength do I need for a driveway in Mississauga?</h3>
+              <p>32 MPa air-entrained. Given Mississauga's lake exposure and freeze-thaw cycling, this is the minimum we recommend for any exterior residential application. Some suppliers quote 25 MPa to win on price — it is not the right call for Mississauga's climate.</p>
+            </div>
+            <div>
+              <h3 class="font-bold">How much concrete do I need for a standard Mississauga driveway?</h3>
+              <p>A typical two-car driveway — 6 metres wide by 6 metres long at 100mm depth — requires approximately 3.6 cubic metres. Call us with your exact dimensions and we will calculate the precise volume including waste allowance.</p>
+            </div>
+            <div>
+              <h3 class="font-bold">Do you deliver concrete in Mississauga during winter?</h3>
+              <p>Yes. Cold-Crete is available year-round. We deliver through Ontario winters and will advise on mix, placement temperature requirements, and curing based on your specific pour date and forecast.</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    `
+  },
+  'ready-mix-concrete-in-etobicoke': {
+    title: 'Best Ready Mix Concrete in Etobicoke in 2026',
+    description: 'Wilches Ready Mix is based in Etobicoke — delivering plant-batched concrete across Etobicoke and the GTA since 2004. Residential, commercial & industrial. Call 647-891-4740.',
+    url: 'https://wilchesreadymix.com/ready-mix-concrete-in-etobicoke/',
+    htmlContent: `
+      <div class="bg-black text-white w-full min-h-screen">
+        <section class="py-20 text-center">
+          <h1 class="text-4xl font-bold mb-6">Ready Mix Concrete in Etobicoke</h1>
+          <p>Most concrete suppliers serve Etobicoke. We are based here. Our plant is at 32 Taber Road — which means when you order ready mix concrete in Etobicoke, the truck is coming from your neighbourhood, not from a plant an hour away racing against the workability clock.</p>
+          <p>At <strong>Wilches Ready Mix Concrete Inc.</strong>, we have been supplying Etobicoke homeowners, contractors, and industrial clients since 2004. Over 1,500 completed projects across the GTA. Every load plant-batched, quality-checked, and delivered on the time we commit to. Being local is not just a marketing line for us — it is a logistics advantage that every Etobicoke customer benefits from.</p>
+        </section>
+        
+        <section class="py-16 max-w-4xl mx-auto px-6">
+          <h2 class="text-2xl font-bold mb-4">The Advantage of a Local Etobicoke Concrete Supplier</h2>
+          <p>Concrete has a workability window. Once it leaves the plant, the clock is running — and the longer the haul, the tighter that window gets. Admixtures can extend it, but every adjustment to workability is a compromise to the original mix design.</p>
+          <p>When you order from our Etobicoke plant, the travel time is short. The concrete arrives with full workability, the mix design is intact, and your crew has the time they need to place and finish properly. For residential pours where surface quality matters and for commercial pours where placement timing is critical, that proximity is a real advantage.</p>
+          <p>Honestly, it is one of the reasons Etobicoke contractors keep calling us back — they know the truck is close.</p>
+        </section>
+        
+        <section class="py-16 max-w-4xl mx-auto px-6">
+          <h2 class="text-2xl font-bold mb-4">Concrete Projects We Handle in Etobicoke</h2>
+          <div class="space-y-6">
+            <div>
+              <h3 class="text-xl font-bold">Residential Driveway and Patio Pours</h3>
+              <p>Etobicoke's established residential neighbourhoods — Humber Valley, Princess-Rosethorn, Markland Wood, Long Branch, and Mimico — generate a steady volume of driveway replacements, garage floor pours, backyard patio installations, and walkway rebuilds. These are permanent investments. A driveway in Etobicoke's older neighbourhoods, installed with the wrong mix or insufficient air entrainment, will start showing surface deterioration within a few Ontario winters. We supply 32 MPa air-entrained as standard for all exterior residential applications — it is what the job requires, not just what fills the truck.</p>
+            </div>
+            <div>
+              <h3 class="text-xl font-bold">New Construction and Foundation Work</h3>
+              <p>New builds and infill projects across Etobicoke require foundation pours and basement slabs that meet engineer specifications and coordinate with forming crews and inspection schedules. We supply to the exact PSI your project requires, confirm delivery timing with your site supervisor, and show up when the window opens.</p>
+            </div>
+            <div>
+              <h3 class="text-xl font-bold">Commercial Concrete Etobicoke</h3>
+              <p>Retail and commercial developments along Bloor Street, Dundas Street, and the Queensway corridor require commercial-grade concrete delivered on a site schedule. We supply to engineer specification, coordinate with project managers running multiple trades, and deliver in the window the pour requires.</p>
+            </div>
+            <div>
+              <h3 class="text-xl font-bold">Industrial Concrete Etobicoke</h3>
+              <p>Etobicoke's industrial areas — along Dixon Road, Evans Avenue, and the Highway 427 corridor — include manufacturing facilities, logistics operations, and warehouse developments that require high-strength concrete with documented consistency. Equipment pads, industrial floors, loading areas — full batch documentation on every pour.</p>
+            </div>
+            <div>
+              <h3 class="text-xl font-bold">Decorative and Exposed Aggregate</h3>
+              <p>Etobicoke's luxury residential market — Humber Valley Village, Princess-Rosethorn, Sunnylea — has strong demand for decorative concrete finishes. Exposed aggregate driveways, stamped patios, pool surrounds. Our SCC mixes deliver the surface quality these projects require.</p>
+            </div>
+          </div>
+        </section>
+        
+        <section class="py-16 max-w-4xl mx-auto px-6">
+          <h2 class="text-2xl font-bold mb-4">Concrete Mixes Available in Etobicoke</h2>
+          <p>Every Etobicoke project has specific requirements. We supply: 32 MPa Air-Entrained (driveways/patios), High-Strength 35-40 MPa (industrial floors/foundations), SCC Mix (decorative finishes/tight access), Cold-Crete (winter pours), and Custom PSI mixes.</p>
+        </section>
+        
+        <section class="py-16 max-w-4xl mx-auto px-6">
+          <h2 class="text-2xl font-bold mb-4">Concrete Curing Times for Etobicoke Projects</h2>
+          <p>Curing is temperature-dependent: Above 20°C (4-6 hours initial, 28 days full), 10-20°C (6-10 hours initial, 28-35 days full), 5-10°C (10-16 hours initial, 35-45 days full), and Below 5°C (16+ hours initial, 45+ days full with Cold-Crete).</p>
+        </section>
+        
+        <section class="py-16 max-w-4xl mx-auto px-6">
+          <h2 class="text-2xl font-bold mb-4">What Etobicoke Customers Say</h2>
+          <div class="space-y-4">
+            <p><strong>Gursharan Marwaha:</strong> "Very good, very friendly, very affordable compared to others, quick response, same day delivery!" (5-star Google Review)</p>
+            <p><strong>Tristan Braga:</strong> "Perfect concrete on time and exactly what I ordered. No cracks and perfect customer service." (5-star Google Review)</p>
+            <p><strong>Stephen O'Keeffe:</strong> "I ordered concrete on a Saturday evening. They answered the phone when no one else did. Brought me the concrete on time, fair pricing and the driver was very patient." (5-star Google Review)</p>
+          </div>
+        </section>
+        
+        <section class="py-16 max-w-4xl mx-auto px-6">
+          <h2 class="text-2xl font-bold mb-4">A Real Etobicoke Job</h2>
+          <p>A contractor in Mimico called us at 7am for a garage floor pour — the forms were set, the crew was on site, and his original supplier had cancelled. We confirmed the order, batched to spec, and had the truck on site by 9am. The pour ran the same morning. Being based in Etobicoke means we can respond to same-day calls faster than any supplier coming from outside the city.</p>
+        </section>
+        
+        <section class="py-16 max-w-4xl mx-auto px-6">
+          <h2 class="text-2xl font-bold mb-4">Etobicoke Neighbourhoods We Serve</h2>
+          <p>Humber Valley, Princess-Rosethorn, Markland Wood, Long Branch, Mimico, Alderwood, Rexdale, Thistletown, Sunnylea, and New Toronto. Call 647-891-4740 for other Etobicoke locations.</p>
+        </section>
+        
+        <section class="py-16 max-w-4xl mx-auto px-6">
+          <h2 class="text-2xl font-bold mb-4">Questions Etobicoke Customers Ask</h2>
+          <div class="space-y-6">
+            <div>
+              <h3 class="font-bold">How quickly can you deliver concrete in Etobicoke?</h3>
+              <p>Being plant-based in Etobicoke means we can often accommodate same-day orders for residential jobs. For scheduled pours, 24 hours notice is standard. Call us and we will confirm availability on the spot.</p>
+            </div>
+            <div>
+              <h3 class="font-bold">What strength do I need for a driveway in Etobicoke?</h3>
+              <p>32 MPa air-entrained — Ontario standard for residential driveways in freeze-thaw conditions. We have seen enough Etobicoke driveways fail at lower strengths to know this is not an area to cut costs.</p>
+            </div>
+            <div>
+              <h3 class="font-bold">How much concrete do I need for a standard driveway?</h3>
+              <p>A two-car driveway at 6m x 6m x 100mm depth requires approximately 3.6 cubic metres. Call us with your exact dimensions for a precise calculation.</p>
+            </div>
+            <div>
+              <h3 class="font-bold">Do you pour concrete in Etobicoke in winter?</h3>
+              <p>Yes. Cold-Crete is available year-round. Our Etobicoke location means fast dispatch even for urgent winter orders.</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    `
+  },
+  'ready-mix-concrete-in-malton': {
+    title: 'Top Rated Ready Mix Concrete in Malton',
+    description: 'Need ready mix concrete in Malton? Wilches Ready Mix delivers plant-batched concrete to Malton and northwest GTA. Residential, commercial & industrial. Call 647-891-4740.',
+    url: 'https://wilchesreadymix.com/ready-mix-concrete-in-malton/',
+    htmlContent: `
+      <div class="bg-black text-white w-full min-h-screen">
+        <section class="py-20 text-center">
+          <h1 class="text-4xl font-bold mb-6">Ready Mix Concrete in Malton</h1>
+          <p>Malton sits at the northwest corner of Mississauga, bordered by Brampton to the north and the airport corridor to the east. It is a working community — dense residential, active industrial along Airport Road and Derry Road, and proximity to Pearson International that makes logistics a constant reality of life here.</p>
+          <p>Getting concrete delivered to Malton is straightforward for us. Our Etobicoke plant is under 20 minutes away on a clear run, which means your concrete arrives with its full workability intact and your crew is not waiting on a truck that is stuck somewhere on the 401. At <strong>Wilches Ready Mix Concrete Inc.</strong>, we have been serving Malton and northwest Mississauga since 2004 — over 1,500 GTA projects, every load plant-batched and quality-checked before it leaves.</p>
+        </section>
+        
+        <section class="py-16 max-w-4xl mx-auto px-6">
+          <h2 class="text-2xl font-bold mb-4">Why Malton Contractors Trust Plant-Batched Concrete</h2>
+          <p>Malton's industrial and residential mix means concrete orders here range from small homeowner pours to large industrial floor applications. Plant-batched ready mix handles both — because the mix design is controlled at the plant, not estimated on a truck.</p>
+          <p>Every batch we deliver to Malton uses certified aggregates, a controlled water-to-cement ratio, and proper air entrainment on all exterior applications. Quality is checked before dispatch. Honestly, there is no shortcut that produces a better result — consistent mix design at the source is the only way to guarantee consistent performance at the pour.</p>
+        </section>
+        
+        <section class="py-16 max-w-4xl mx-auto px-6">
+          <h2 class="text-2xl font-bold mb-4">Concrete We Deliver in Malton</h2>
+          <div class="space-y-6">
+            <div>
+              <h3 class="text-xl font-bold">Residential Pours — Driveways, Slabs, Patios</h3>
+              <p>Malton homeowners come to us for driveway replacements, garage floor pours, front walkways, and backyard patios. These are straightforward jobs that become expensive problems when the wrong mix is used. Malton's location near Pearson means elevated road salt exposure from airport-adjacent streets — a factor that makes air entrainment in residential concrete more important here than in many other GTA neighbourhoods. We supply 32 MPa air-entrained as standard for all exterior Malton residential work.</p>
+            </div>
+            <div>
+              <h3 class="text-xl font-bold">Industrial Floor and Equipment Pad Pours</h3>
+              <p>Airport Road, Derry Road, and the industrial parks throughout Malton include warehousing, manufacturing, and logistics operations that place heavy demands on concrete. High-strength mixes, consistent PSI across multiple pours, and full batch documentation — we supply industrial-grade ready mix to Malton's industrial sector the same way we supply commercial GTA projects. No difference in standard.</p>
+            </div>
+            <div>
+              <h3 class="text-xl font-bold">Commercial and Retail Concrete</h3>
+              <p>Commercial development along Goreway Drive and the retail corridors throughout Malton require concrete that meets engineer specifications and arrives on schedule. We coordinate with site supervisors, supply to the exact PSI required, and deliver in the window the pour needs.</p>
+            </div>
+          </div>
+        </section>
+        
+        <section class="py-16 max-w-4xl mx-auto px-6">
+          <h2 class="text-2xl font-bold mb-4">Concrete Mix Options for Malton Projects</h2>
+          <p>We supply: 32 MPa Air-Entrained (driveways/patios), High-Strength 35-40 MPa (industrial floors/foundations), SCC Mix (decorative finishes/tight access), Cold-Crete (winter pours), and Custom PSI mixes.</p>
+        </section>
+        
+        <section class="py-16 max-w-4xl mx-auto px-6">
+          <h2 class="text-2xl font-bold mb-4">Concrete Curing Times in Malton</h2>
+          <p>Curing is temperature-dependent: Above 20°C (4-6 hours initial, 28 days full), 10-20°C (6-10 hours initial, 28-35 days full), 5-10°C (10-16 hours initial, 35-45 days full), and Below 5°C (16+ hours initial, 45+ days full with Cold-Crete).</p>
+        </section>
+        
+        <section class="py-16 max-w-4xl mx-auto px-6">
+          <h2 class="text-2xl font-bold mb-4">What Our Customers Say</h2>
+          <div class="space-y-4">
+            <p><strong>Gursharan Marwaha:</strong> "Very good, very friendly, very affordable compared to others, quick response, same day delivery!" (5-star Google Review)</p>
+            <p><strong>Stephen O'Keeffe:</strong> "I ordered concrete on a Saturday evening. They answered the phone when no one else did. Brought me the concrete on time, fair pricing and the driver was very patient." (5-star Google Review)</p>
+            <p><strong>radiomen123:</strong> "This is the second time in a few years that I use their service. Each time they were on time and the drivers were very responsible and zero issue." (5-star Google Review)</p>
+          </div>
+        </section>
+        
+        <section class="py-16 max-w-4xl mx-auto px-6">
+          <h2 class="text-2xl font-bold mb-4">Areas Near Malton We Also Serve</h2>
+          <p>Malton Core, Airport Road Corridor, Derry Road Area, Northwest Mississauga, Brampton East, and Woodbine/Humberwest. Call 647-891-4740 for adjacent coverage details.</p>
+        </section>
+        
+        <section class="py-16 max-w-4xl mx-auto px-6">
+          <h2 class="text-2xl font-bold mb-4">Questions Malton Customers Ask</h2>
+          <div class="space-y-6">
+            <div>
+              <h3 class="font-bold">How quickly can you deliver concrete in Malton?</h3>
+              <p>Our Etobicoke plant is under 20 minutes from Malton. For residential orders, 24 hours notice is standard. Same-day availability is often possible — call us to confirm.</p>
+            </div>
+            <div>
+              <h3 class="font-bold">What concrete strength is right for a Malton driveway?</h3>
+              <p>32 MPa air-entrained. Malton's road salt exposure from airport-adjacent streets makes this more important here than in many other areas — air entrainment protects against both freeze-thaw damage and salt penetration.</p>
+            </div>
+            <div>
+              <h3 class="font-bold">How much concrete do I need for a standard driveway in Malton?</h3>
+              <p>A two-car driveway at 6m x 6m x 100mm depth requires approximately 3.6 cubic metres. Call us with your dimensions for a precise volume calculation.</p>
+            </div>
+            <div>
+              <h3 class="font-bold">Do you deliver in Malton during winter?</h3>
+              <p>Yes. Cold-Crete is available year-round. We deliver to Malton through Ontario winters and will advise on the right mix and curing approach for your pour date.</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    `
+  },
+  'ready-mix-concrete-in-hamilton': {
+    title: 'Top Rated Ready Mix Concrete in Hamilton',
+    description: 'Wilches Ready Mix delivers plant-batched ready mix concrete in Hamilton and surrounding area. Residential, commercial & industrial. 20+ years GTA experience. Call 647-891-4740.',
+    url: 'https://wilchesreadymix.com/ready-mix-concrete-in-hamilton/',
+    htmlContent: `
+      <div class="bg-black text-white w-full min-h-screen">
+        <section class="py-20 text-center">
+          <h1 class="text-4xl font-bold mb-6">Ready Mix Concrete in Hamilton</h1>
+          <p>Hamilton is a city that knows concrete. Steel production, heavy industrial infrastructure, and a construction market that has been transforming — the waterfront, the downtown core, and the mountain developments all running simultaneously. This is not a market where concrete suppliers get away with inconsistency.</p>
+          <p>At <strong>Wilches Ready Mix Concrete Inc.</strong>, we deliver ready mix concrete to Hamilton from our Etobicoke plant. The drive takes us down the QEW — approximately 60 to 70 minutes depending on traffic. We account for that travel time in our batching schedule so the concrete arrives within its full workability window. Over 20 years in this business, over 1,500 GTA and Hamilton area projects, every load plant-batched and quality-checked before dispatch.</p>
+        </section>
+        
+        <section class="py-16 max-w-4xl mx-auto px-6">
+          <h2 class="text-2xl font-bold mb-4">What Plant-Batched Concrete Means for Hamilton Projects</h2>
+          <p>Hamilton has local concrete suppliers. We know that, and we are not pretending otherwise.</p>
+          <p>What we offer is plant-batched ready mix produced under controlled conditions — certified aggregates, precise water-to-cement ratio, admixtures matched to the application and season, and quality checks on every batch before it loads. For residential pours where surface quality matters and for industrial applications where PSI documentation is required, that standard is what the job needs.</p>
+          <p>For smaller residential pours, local mobile-mix operators are a reasonable option. For anything where consistent mix design and batch documentation matter — commercial foundations, industrial floors, engineer-specified applications — plant-batched is the right call. That is what we provide.</p>
+        </section>
+        
+        <section class="py-16 max-w-4xl mx-auto px-6">
+          <h2 class="text-2xl font-bold mb-4">Hamilton Projects We Handle</h2>
+          <div class="space-y-6">
+            <div>
+              <h3 class="text-xl font-bold">Residential Concrete Hamilton</h3>
+              <p>Hamilton homeowners across Westdale, Dundas, Ancaster, Stoney Creek, and the mountain communities come to us for driveways, garage floors, basement slabs, walkways, and patios. Hamilton's elevation and proximity to Lake Ontario create specific freeze-thaw conditions — the escarpment areas in particular experience significant temperature variation that puts real stress on exterior concrete. 32 MPa air-entrained is our standard for all exterior Hamilton residential applications. It is not upselling — it is what the local climate requires.</p>
+            </div>
+            <div>
+              <h3 class="text-xl font-bold">Commercial Concrete Hamilton</h3>
+              <p>Hamilton's downtown transformation — new residential towers, retail, office, and mixed-use developments along King Street and James Street — has generated significant commercial concrete demand. The waterfront development, the Innovation District, and the broader intensification of Hamilton's core all require concrete supplied to engineer specifications with delivery coordinated around busy urban sites. We supply commercial-grade ready mix to the exact PSI your project requires.</p>
+            </div>
+            <div>
+              <h3 class="text-xl font-bold">Industrial Concrete Hamilton</h3>
+              <p>Hamilton's industrial heritage is still very much alive — steel-related manufacturing, logistics operations, and heavy industry along the harbour and the industrial corridors require the most demanding concrete specifications. High-strength mixes, documented consistency across multiple pours, PSI to engineer specification. We supply industrial-grade ready mix to Hamilton's industrial sector with full quality documentation on every pour.</p>
+            </div>
+            <div>
+              <h3 class="text-xl font-bold">Mountain and Escarpment Area Projects</h3>
+              <p>Hamilton's mountain communities — Ancaster, Meadowlands, Binbrook, and the upper city — have active residential construction and renovation markets. Delivering concrete to escarpment-adjacent sites requires attention to access logistics that not every supplier manages well. We confirm site access conditions when you book and plan accordingly.</p>
+            </div>
+          </div>
+        </section>
+        
+        <section class="py-16 max-w-4xl mx-auto px-6">
+          <h2 class="text-2xl font-bold mb-4">Concrete Mixes for Hamilton Projects</h2>
+          <p>We supply: 32 MPa Air-Entrained (driveways/patios), High-Strength 35-40 MPa (industrial floors/foundations), SCC Mix (decorative finishes/tight access), Cold-Crete (winter pours), and Custom PSI mixes.</p>
+          <p>Hamilton's winters are meaningful. The escarpment creates its own microclimate — colder and windier than the lower city, with ice formation that comes earlier and stays later. Cold-Crete is relevant here for a longer window than in many GTA locations.</p>
+        </section>
+        
+        <section class="py-16 max-w-4xl mx-auto px-6">
+          <h2 class="text-2xl font-bold mb-4">Concrete Curing Times in Hamilton Weather</h2>
+          <p>Curing is temperature-dependent: Above 20°C (4-6 hours initial, 28 days full), 10-20°C (6-10 hours initial, 28-35 days full), 5-10°C (10-16 hours initial, 35-45 days full), and Below 5°C (16+ hours initial, 45+ days full with Cold-Crete and insulated curing).</p>
+          <p>On the mountain, add extra time to these ranges. Escarpment sites are exposed — wind chill and temperature variation affect curing more than in sheltered lower-city locations.</p>
+        </section>
+        
+        <section class="py-16 max-w-4xl mx-auto px-6">
+          <h2 class="text-2xl font-bold mb-4">What Our Customers Say</h2>
+          <div class="space-y-4">
+            <p><strong>Tristan Braga:</strong> "Perfect concrete on time and exactly what I ordered. No cracks and perfect customer service." (5-star Google Review)</p>
+            <p><strong>Stephen O'Keeffe:</strong> "I ordered concrete on a Saturday evening. They answered the phone when no one else did. Brought me the concrete on time, fair pricing and the driver was very patient." (5-star Google Review)</p>
+            <p><strong>radiomen123:</strong> "This is the second time in a few years that I use their service. Each time they were on time and the drivers were very responsible and zero issue." (5-star Google Review)</p>
+          </div>
+        </section>
+        
+        <section class="py-16 max-w-4xl mx-auto px-6">
+          <h2 class="text-2xl font-bold mb-4">Hamilton Areas We Deliver To</h2>
+          <p>Downtown Hamilton, Westdale, Dundas, Ancaster, Meadowlands, Binbrook, Stoney Creek, Winona, Waterdown, and Hamilton Mountain. Call 647-891-4740 for adjacent coverage details.</p>
+        </section>
+        
+        <section class="py-16 max-w-4xl mx-auto px-6">
+          <h2 class="text-2xl font-bold mb-4">Questions Hamilton Customers Ask</h2>
+          <div class="space-y-6">
+            <div>
+              <h3 class="font-bold">How far is your plant from Hamilton?</h3>
+              <p>Our Etobicoke plant is approximately 60–70 minutes from downtown Hamilton via the QEW. We batch on a schedule that accounts for travel time — the concrete arrives within its workability window.</p>
+            </div>
+            <div>
+              <h3 class="font-bold">What concrete strength do I need for a Hamilton driveway?</h3>
+              <p>32 MPa air-entrained. Hamilton's escarpment location and lake proximity create demanding freeze-thaw conditions. This is the minimum we recommend for any exterior Hamilton residential application.</p>
+            </div>
+            <div>
+              <h3 class="font-bold">How much concrete do I need for a standard driveway?</h3>
+              <p>A two-car driveway at 6m x 6m x 100mm depth requires approximately 3.6 cubic metres. Call with your exact dimensions for a precise volume calculation.</p>
+            </div>
+            <div>
+              <h3 class="font-bold">Do you deliver in Hamilton during winter?</h3>
+              <p>Yes. Cold-Crete is available year-round. Hamilton winters — particularly on the mountain — are serious, and we will advise on mix, placement temperature, and curing based on your specific pour date and site location.</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    `
   }
 };
 
@@ -869,8 +1354,14 @@ const routes = [
   'ready-mix-concrete-delivery-king-city',
   'ready-mix-concrete-in-newmarket',
   'ready-mix-concrete-vaughan',
-  'ready-mix-concrete-in-stoney-creek'
+  'ready-mix-concrete-in-stoney-creek',
+  'ready-mix-concrete-in-brampton',
+  'ready-mix-concrete-in-mississauga',
+  'ready-mix-concrete-in-etobicoke',
+  'ready-mix-concrete-in-malton',
+  'ready-mix-concrete-in-hamilton'
 ];
+
 
 if (fs.existsSync(indexPath)) {
   const indexContent = fs.readFileSync(indexPath, 'utf-8');

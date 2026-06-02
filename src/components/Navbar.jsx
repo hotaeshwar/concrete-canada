@@ -19,7 +19,12 @@ const links = [
       { label: "King City Concrete Delivery", href: "ready-mix-concrete-delivery-king-city", path: "/ready-mix-concrete-delivery-king-city/" },
       { label: "Newmarket Concrete Delivery", href: "ready-mix-concrete-in-newmarket", path: "/ready-mix-concrete-in-newmarket/" },
       { label: "Vaughan Concrete Delivery", href: "ready-mix-concrete-vaughan", path: "/ready-mix-concrete-vaughan/" },
-      { label: "Stoney Creek Concrete Delivery", href: "ready-mix-concrete-in-stoney-creek", path: "/ready-mix-concrete-in-stoney-creek/" }
+      { label: "Stoney Creek Concrete Delivery", href: "ready-mix-concrete-in-stoney-creek", path: "/ready-mix-concrete-in-stoney-creek/" },
+      { label: "Brampton Concrete Delivery", href: "ready-mix-concrete-in-brampton", path: "/ready-mix-concrete-in-brampton/" },
+      { label: "Mississauga Concrete Delivery", href: "ready-mix-concrete-in-mississauga", path: "/ready-mix-concrete-in-mississauga/" },
+      { label: "Etobicoke Concrete Delivery", href: "ready-mix-concrete-in-etobicoke", path: "/ready-mix-concrete-in-etobicoke/" },
+      { label: "Malton Concrete Delivery", href: "ready-mix-concrete-in-malton", path: "/ready-mix-concrete-in-malton/" },
+      { label: "Hamilton Concrete Delivery", href: "ready-mix-concrete-in-hamilton", path: "/ready-mix-concrete-in-hamilton/" }
     ]
   },
   { label: "Project Gallery", href: "gallery", path: "/gallery" },

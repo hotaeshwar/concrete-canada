@@ -11,6 +11,11 @@ import KingCityConcreteDelivery from './components/KingCityConcreteDelivery'
 import NewmarketConcreteDelivery from './components/NewmarketConcreteDelivery'
 import VaughanConcreteDelivery from './components/VaughanConcreteDelivery'
 import StoneyCreekConcreteDelivery from './components/StoneyCreekConcreteDelivery'
+import BramptonConcreteDelivery from './components/BramptonConcreteDelivery'
+import MississaugaConcreteDelivery from './components/MississaugaConcreteDelivery'
+import EtobicokeConcreteDelivery from './components/EtobicokeConcreteDelivery'
+import MaltonConcreteDelivery from './components/MaltonConcreteDelivery'
+import HamiltonConcreteDelivery from './components/HamiltonConcreteDelivery'
 import SEO, { KEYWORDS } from './components/Seo'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
@@ -261,6 +266,11 @@ function AppContent() {
           <Route path="/ready-mix-concrete-in-newmarket/" element={<NewmarketConcreteDelivery />} />
           <Route path="/ready-mix-concrete-vaughan/" element={<VaughanConcreteDelivery />} />
           <Route path="/ready-mix-concrete-in-stoney-creek/" element={<StoneyCreekConcreteDelivery />} />
+          <Route path="/ready-mix-concrete-in-brampton/" element={<BramptonConcreteDelivery />} />
+          <Route path="/ready-mix-concrete-in-mississauga/" element={<MississaugaConcreteDelivery />} />
+          <Route path="/ready-mix-concrete-in-etobicoke/" element={<EtobicokeConcreteDelivery />} />
+          <Route path="/ready-mix-concrete-in-malton/" element={<MaltonConcreteDelivery />} />
+          <Route path="/ready-mix-concrete-in-hamilton/" element={<HamiltonConcreteDelivery />} />
         </Routes>
         <Footer />
       </div>
