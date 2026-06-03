@@ -10,21 +10,21 @@ const links = [
     isDropdown: true,
     subLinks: [
       { label: "Ajax Concrete Delivery", href: "ready-mix-concrete-delivery-ajax", path: "/ready-mix-concrete-delivery-ajax/" },
-      { label: "Whitby Concrete Delivery", href: "ready-mix-concrete-delivery-whitby", path: "/ready-mix-concrete-delivery-whitby/" },
+      { label: "Barrie Concrete Delivery", href: "ready-mix-concrete-delivery-barrie", path: "/ready-mix-concrete-delivery-barrie/" },
+      { label: "Brampton Concrete Delivery", href: "ready-mix-concrete-in-brampton", path: "/ready-mix-concrete-in-brampton/" },
+      { label: "Etobicoke Concrete Delivery", href: "ready-mix-concrete-in-etobicoke", path: "/ready-mix-concrete-in-etobicoke/" },
+      { label: "Hamilton Concrete Delivery", href: "ready-mix-concrete-in-hamilton", path: "/ready-mix-concrete-in-hamilton/" },
+      { label: "King City Concrete Delivery", href: "ready-mix-concrete-delivery-king-city", path: "/ready-mix-concrete-delivery-king-city/" },
+      { label: "Malton Concrete Delivery", href: "ready-mix-concrete-in-malton", path: "/ready-mix-concrete-in-malton/" },
+      { label: "Mississauga Concrete Delivery", href: "ready-mix-concrete-in-mississauga", path: "/ready-mix-concrete-in-mississauga/" },
+      { label: "Newmarket Concrete Delivery", href: "ready-mix-concrete-in-newmarket", path: "/ready-mix-concrete-in-newmarket/" },
+      { label: "Oakville Concrete Delivery", href: "ready-mix-concrete-delivery-oakville", path: "/ready-mix-concrete-delivery-oakville/" },
+      { label: "Oshawa Concrete Delivery", href: "ready-mix-concrete-delivery-oshawa", path: "/ready-mix-concrete-delivery-oshawa/" },
       { label: "Pickering Concrete Delivery", href: "ready-mix-concrete-pickering", path: "/ready-mix-concrete-pickering/" },
       { label: "Scarborough Concrete Delivery", href: "ready-mix-concrete-scarborough", path: "/ready-mix-concrete-scarborough/" },
-      { label: "Barrie Concrete Delivery", href: "ready-mix-concrete-delivery-barrie", path: "/ready-mix-concrete-delivery-barrie/" },
-      { label: "Oshawa Concrete Delivery", href: "ready-mix-concrete-delivery-oshawa", path: "/ready-mix-concrete-delivery-oshawa/" },
-      { label: "Oakville Concrete Delivery", href: "ready-mix-concrete-delivery-oakville", path: "/ready-mix-concrete-delivery-oakville/" },
-      { label: "King City Concrete Delivery", href: "ready-mix-concrete-delivery-king-city", path: "/ready-mix-concrete-delivery-king-city/" },
-      { label: "Newmarket Concrete Delivery", href: "ready-mix-concrete-in-newmarket", path: "/ready-mix-concrete-in-newmarket/" },
-      { label: "Vaughan Concrete Delivery", href: "ready-mix-concrete-vaughan", path: "/ready-mix-concrete-vaughan/" },
       { label: "Stoney Creek Concrete Delivery", href: "ready-mix-concrete-in-stoney-creek", path: "/ready-mix-concrete-in-stoney-creek/" },
-      { label: "Brampton Concrete Delivery", href: "ready-mix-concrete-in-brampton", path: "/ready-mix-concrete-in-brampton/" },
-      { label: "Mississauga Concrete Delivery", href: "ready-mix-concrete-in-mississauga", path: "/ready-mix-concrete-in-mississauga/" },
-      { label: "Etobicoke Concrete Delivery", href: "ready-mix-concrete-in-etobicoke", path: "/ready-mix-concrete-in-etobicoke/" },
-      { label: "Malton Concrete Delivery", href: "ready-mix-concrete-in-malton", path: "/ready-mix-concrete-in-malton/" },
-      { label: "Hamilton Concrete Delivery", href: "ready-mix-concrete-in-hamilton", path: "/ready-mix-concrete-in-hamilton/" }
+      { label: "Vaughan Concrete Delivery", href: "ready-mix-concrete-vaughan", path: "/ready-mix-concrete-vaughan/" },
+      { label: "Whitby Concrete Delivery", href: "ready-mix-concrete-delivery-whitby", path: "/ready-mix-concrete-delivery-whitby/" }
     ]
   },
   { label: "Project Gallery", href: "gallery", path: "/gallery" },
@@ -73,22 +73,59 @@ function NavLinkItem({ link, activeLink, onSamePageClick, className = "nav-link"
           </svg>
         </button>
         {dropdownOpen && (
-          <div className={isMobile ? "mt-1" : "absolute left-0 top-full pt-2 w-56 z-50"}>
-            <div className={isMobile ? "bg-[#1a1a1a] pl-4 py-2 rounded-md" : "bg-[#111] border border-[#f97316]/30 shadow-xl rounded-md overflow-hidden"}>
-              {link.subLinks.map(sub => (
-                <Link
-                  key={sub.label}
-                  to={sub.path}
-                  className={isMobile ? "block py-2 text-[0.95rem] text-white/80 hover:text-[#f97316] font-bold" : "block px-4 py-3 text-[0.9rem] text-white/90 font-bold hover:bg-[#222] hover:text-[#f97316] transition-colors"}
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setDropdownOpen(false);
-                    onSamePageClick(sub.href);
-                  }}
-                >
-                  {sub.label}
-                </Link>
-              ))}
+          <div className={isMobile ? "mt-1" : "absolute left-0 top-full pt-2 w-[480px] z-50"}>
+            <div className={isMobile ? "bg-[#1a1a1a] pl-4 py-2 rounded-md" : "bg-[#111] border border-[#f97316]/30 shadow-xl rounded-md overflow-hidden p-2.5"}>
+              {isMobile ? (
+                link.subLinks.map(sub => (
+                  <Link
+                    key={sub.label}
+                    to={sub.path}
+                    className="block py-2 text-[0.95rem] text-white/80 hover:text-[#f97316] font-bold"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      setDropdownOpen(false);
+                      onSamePageClick(sub.href);
+                    }}
+                  >
+                    {sub.label}
+                  </Link>
+                ))
+              ) : (
+                <div className="grid grid-cols-2 gap-x-3">
+                  <div className="flex flex-col">
+                    {link.subLinks.slice(0, Math.ceil(link.subLinks.length / 2)).map(sub => (
+                      <Link
+                        key={sub.label}
+                        to={sub.path}
+                        className="block px-3.5 py-2 text-[0.85rem] text-white/90 font-bold hover:bg-[#222] hover:text-[#f97316] rounded-md transition-all duration-200"
+                        onClick={(e) => {
+                          e.preventDefault();
+                          setDropdownOpen(false);
+                          onSamePageClick(sub.href);
+                        }}
+                      >
+                        {sub.label}
+                      </Link>
+                    ))}
+                  </div>
+                  <div className="flex flex-col">
+                    {link.subLinks.slice(Math.ceil(link.subLinks.length / 2)).map(sub => (
+                      <Link
+                        key={sub.label}
+                        to={sub.path}
+                        className="block px-3.5 py-2 text-[0.85rem] text-white/90 font-bold hover:bg-[#222] hover:text-[#f97316] rounded-md transition-all duration-200"
+                        onClick={(e) => {
+                          e.preventDefault();
+                          setDropdownOpen(false);
+                          onSamePageClick(sub.href);
+                        }}
+                      >
+                        {sub.label}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
             </div>
           </div>
         )}
