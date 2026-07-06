@@ -16,6 +16,15 @@ import MississaugaConcreteDelivery from './components/MississaugaConcreteDeliver
 import EtobicokeConcreteDelivery from './components/EtobicokeConcreteDelivery'
 import MaltonConcreteDelivery from './components/MaltonConcreteDelivery'
 import HamiltonConcreteDelivery from './components/HamiltonConcreteDelivery'
+import SelfCompactingConcrete from './components/SelfCompactingConcrete'
+import TypesOfConcreteMix from './components/TypesOfConcreteMix'
+import MpaComparison from './components/MpaComparison'
+import MixRatioGuide from './components/MixRatioGuide'
+import HighStrengthConcrete from './components/HighStrengthConcrete'
+import FoundationChecklist from './components/FoundationChecklist'
+import ChooseSupplierGuide from './components/ChooseSupplierGuide'
+import SupplierQuestions from './components/SupplierQuestions'
+import SlumpTestGuide from './components/SlumpTestGuide'
 import SEO, { KEYWORDS } from './components/Seo'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
@@ -271,6 +280,15 @@ function AppContent() {
           <Route path="/ready-mix-concrete-in-etobicoke/" element={<EtobicokeConcreteDelivery />} />
           <Route path="/ready-mix-concrete-in-malton/" element={<MaltonConcreteDelivery />} />
           <Route path="/ready-mix-concrete-in-hamilton/" element={<HamiltonConcreteDelivery />} />
+          <Route path="/self-compacting-concrete-gta/" element={<SelfCompactingConcrete />} />
+          <Route path="/types-of-concrete-mix/" element={<TypesOfConcreteMix />} />
+          <Route path="/25mpa-vs-30mpa-concrete/" element={<MpaComparison />} />
+          <Route path="/concrete-mix-ratio/" element={<MixRatioGuide />} />
+          <Route path="/high-strength-concrete/" element={<HighStrengthConcrete />} />
+          <Route path="/concrete-foundation-checklist/" element={<FoundationChecklist />} />
+          <Route path="/choose-concrete-supplier/" element={<ChooseSupplierGuide />} />
+          <Route path="/concrete-supplier-questions/" element={<SupplierQuestions />} />
+          <Route path="/concrete-slump-test/" element={<SlumpTestGuide />} />
         </Routes>
         <Footer />
       </div>
